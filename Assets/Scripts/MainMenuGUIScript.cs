@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class MainMenuGUIScript : MonoBehaviour {
     public float ButtonWidth = 100 ;
@@ -25,7 +26,7 @@ public class MainMenuGUIScript : MonoBehaviour {
         }
         if (GUILayout.Button("Load Level"))
         {
-            loadLevel();
+            loadSelectLevel();
         }
 
         GUILayout.EndArea();
@@ -33,11 +34,14 @@ public class MainMenuGUIScript : MonoBehaviour {
 
     void startLevel()
     {
-        Debug.Log("New Game");
+        //Application.LoadLevel(1);
+        SceneManager.LoadScene(0);
+        // Debug.Log("New Game");
     }
 
-    void loadLevel()
+    void loadSelectLevel()
     {
-        Debug.Log("Load Level");
+        SceneManager.LoadScene(1);
+        //Debug.Log("Load Level");
     }
 }

@@ -90,6 +90,9 @@
     <Compile Include="Assets\Scripts\GUILayout\GUILayoutSelectionGrid.cs" />
     <Compile Include="Assets\Scripts\GUILayout\GUILayoutSpace.cs" />
     <Compile Include="Assets\Scripts\GUILayout\GUILayoutTextArea.cs" />
+    <Compile Include="Assets\Scripts\GUILayout\GUILayoutVerticalScrollbar.cs" />
+    <Compile Include="Assets\Scripts\GUILayout\GUILayoutVerticalSlider.cs" />
+    <Compile Include="Assets\Scripts\LoadLevelGUIScript.cs" />
     <Compile Include="Assets\Scripts\MainMenuGUIScript.cs" />
     <Compile Include="Assets\Scripts\Playerpad.cs" />
     <Compile Include="Assets\Scripts\PowerUpSpawnBall.cs" />
